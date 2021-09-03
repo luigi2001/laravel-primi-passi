@@ -20,7 +20,13 @@
                 <a href="{{ route('chi_siamo') }}"> Chi siamo </a>
                 <a href="{{ route('contact') }}"> Contatti </a>
                 </div>
-                <h2>{{ $home }}</h2>
+                <ul>
+                    @foreach( $contatti as $contatto)
+                    <li>
+                        {{ $contatto }}
+                    </li>
+                    @endforeach
+                </ul>
             </div>
         </div>
     </body>

@@ -16,11 +16,11 @@
                 </div>
 
                 <div class="links">
-                <a href="{{ route('home') }}"> Home </a>
-                <a href="{{ route('chi_siamo') }}"> Chi siamo </a>
-                <a href="{{ route('contact') }}"> Contatti </a>
+                    <a href="{{ route('home') }}"> Home </a>
+                    <a href="{{ route('chi_siamo') }}"> Chi siamo </a>
+                    <a href="{{ route('contact') }}"> Contatti </a>
                 </div>
-                <h2>{{ $home }}</h2>
+                <p>{{ $about }}</p>
             </div>
         </div>
     </body>
